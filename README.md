@@ -21,7 +21,7 @@ Prediction
 <img width="261" alt="Ekran Resmi 2023-03-22 22 03 18" src="https://user-images.githubusercontent.com/75835998/227158908-7e47c081-e22d-4201-be09-63aa048c9f9e.png">
 
 
-Tahmin verileri elde edildikten sonra tespitini yapmak istediğim nesnenin RGB değerini bularak eldeki görüntüde pixeller içerisinde bu rengi arama işlemi gerçekleştirdim. Bunu yapabilmek için ise OpenCV kütüphanesinin inRange() fonksiyonundan yararlandım. Bu fonksiyon ile görüntü içerisinde istediğim RGB renginin pixel pozisyonunu bulabildim. Daha sonra nesnenin bounding boxını çizebilmek için yine OpenCV nin rectangle() fonksiyonundan yararlandım. Örnek sonuçlar aşağıdaki şekildedir:
+Tahmin verileri elde edildikten sonra tespitini yapmak istediğim nesnenin RGB değerini bularak eldeki görüntüde pixeller içerisinde bu rengi arama işlemi gerçekleştirdim. Bunu yapabilmek için ise OpenCV kütüphanesinin inRange() fonksiyonundan yararlandım. Bu fonksiyon ile görüntü içerisinde istediğim RGB değerinin pixel pozisyonunu bulabildim. Daha sonra nesnenin bounding boxını çizebilmek için yine OpenCV nin rectangle() fonksiyonundan yararlandım. Örnek sonuçlar aşağıdaki şekildedir:
 
 
 
