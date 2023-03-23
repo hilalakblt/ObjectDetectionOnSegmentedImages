@@ -31,7 +31,7 @@ Tahmin verileri elde edildikten sonra tespitini yapmak istediğim nesnenin RGB d
 
 
 
-Görsellerde yalnızca araç tespiti yapılmıştır. Ek olarak bazı test verilerinde düzgün segmentasyon tahmini yapıldığı halde bounding boxının hatalı bulunduğu durumlar da olmuştur. Örnek aşağıdaki görsellerdedir:
+Görsellerde yalnızca araç tespiti yapılmıştır ve birden fazla aracın tespiti yapılamamaktadır şu an için. Ek olarak bazı test verilerinde düzgün segmentasyon tahmini yapıldığı halde bounding boxının hatalı bulunduğu durumlar da olmuştur. Örnek aşağıdaki görsellerdedir:
 
 
 
