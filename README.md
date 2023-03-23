@@ -25,6 +25,27 @@ Tahmin verileri elde edildikten sonra tespitini yapmak istediğim nesnenin RGB d
 
 
 
+
+
 <img width="261" alt="Ekran Resmi 2023-03-23 12 40 26" src="https://user-images.githubusercontent.com/75835998/227163615-ad57fef5-6380-4ad2-9e2c-f0672c944d95.png"><img width="261" alt="Ekran Resmi 2023-03-22 22 02 51" src="https://user-images.githubusercontent.com/75835998/227163676-8c7eca43-9452-4adf-90ca-65164345f138.png"><img width="261" alt="Ekran Resmi 2023-03-22 22 25 20" src="https://user-images.githubusercontent.com/75835998/227163750-f545b209-fad3-4774-a787-ae986e153ba8.png">
 
+
+
+Görsellerde yalnızca araç tespiti yapılmıştır. Ek olarak bazı test verilerinde düzgün segmentasyon tahmini yapıldığı halde bounding boxının hatalı bulunduğu durumlar da olmuştur. Örnek aşağıdaki görsellerdedir:
+
+
+
+Ground Truth
+
+<img width="261" alt="Ekran Resmi 2023-03-23 12 45 36" src="https://user-images.githubusercontent.com/75835998/227164793-83907648-2e57-4855-b7ed-a75e62cf2292.png">
+
+
+Prediction
+
+<img width="261" alt="Ekran Resmi 2023-03-23 12 45 42" src="https://user-images.githubusercontent.com/75835998/227164832-67f515dd-d71d-48be-81a3-4885c5e1f806.png">
+
+
+Detection
+
+<img width="261" alt="Ekran Resmi 2023-03-22 22 25 30" src="https://user-images.githubusercontent.com/75835998/227164875-597841d9-b2a7-4dcc-89a1-c0adb8d5e26c.png">
 
