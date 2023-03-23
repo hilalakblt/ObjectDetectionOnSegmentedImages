@@ -8,10 +8,14 @@ Eğitme işlemi için U-net model kullanılmıştır. Parametrelerim lr = 0.005,
 Model eğitildikten sonra accuracy = %79 ve loss = %60 olarak elde edilmiştir. Örnek veriler aşağıdaki şekildedir:
 
 Test
-![test_13](https://user-images.githubusercontent.com/75835998/227159076-ac43f8a8-9135-47aa-905b-226adc4471d4.png)
+
+<img width="261" alt="Ekran Resmi 2023-03-23 12 30 49" src="https://user-images.githubusercontent.com/75835998/227161095-83764143-c7b2-4280-880e-d015e565125c.png">
+
 
 Ground Truth
+
 <img width="261" alt="Ekran Resmi 2023-03-22 22 04 57" src="https://user-images.githubusercontent.com/75835998/227158884-3c815375-2ecb-40ef-a7d2-f5f9c2699bc5.png">
 
 Prediction
+
 <img width="261" alt="Ekran Resmi 2023-03-22 22 03 18" src="https://user-images.githubusercontent.com/75835998/227158908-7e47c081-e22d-4201-be09-63aa048c9f9e.png">
