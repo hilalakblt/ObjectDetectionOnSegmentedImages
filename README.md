@@ -19,3 +19,12 @@ Ground Truth
 Prediction
 
 <img width="261" alt="Ekran Resmi 2023-03-22 22 03 18" src="https://user-images.githubusercontent.com/75835998/227158908-7e47c081-e22d-4201-be09-63aa048c9f9e.png">
+
+
+Tahmin verileri elde edildikten sonra tespitini yapmak istediğim nesnenin RGB değerini bularak eldeki görüntüde pixeller içerisinde bu rengi arama işlemi gerçekleştirdim. Bunu yapabilmek için ise OpenCV kütüphanesinin inRange() fonksiyonundan yararlandım. Bu fonksiyon ile görüntü içerisinde istediğim RGB renginin pixel pozisyonunu bulabildim. Daha sonra nesnenin bounding boxını çizebilmek için yine OpenCV nin rectangle() fonksiyonundan yararlandım. Örnek sonuçlar aşağıdaki şekildedir:
+
+
+
+<img width="261" alt="Ekran Resmi 2023-03-23 12 40 26" src="https://user-images.githubusercontent.com/75835998/227163615-ad57fef5-6380-4ad2-9e2c-f0672c944d95.png"><img width="261" alt="Ekran Resmi 2023-03-22 22 02 51" src="https://user-images.githubusercontent.com/75835998/227163676-8c7eca43-9452-4adf-90ca-65164345f138.png"><img width="261" alt="Ekran Resmi 2023-03-22 22 25 20" src="https://user-images.githubusercontent.com/75835998/227163750-f545b209-fad3-4774-a787-ae986e153ba8.png">
+
+
