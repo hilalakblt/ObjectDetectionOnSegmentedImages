@@ -31,21 +31,3 @@ Tahmin verileri elde edildikten sonra tespitini yapmak istediğim nesnenin RGB d
 
 
 
-Görsellerde yalnızca araç tespiti yapılmıştır ve birden fazla aracın tespiti yapılamamaktadır şu an için. Ek olarak bazı test verilerinde düzgün segmentasyon tahmini yapıldığı halde bounding boxının hatalı bulunduğu durumlar da olmuştur. Örnek aşağıdaki görsellerdedir:
-
-
-
-Ground Truth
-
-<img width="261" alt="Ekran Resmi 2023-03-23 12 45 36" src="https://user-images.githubusercontent.com/75835998/227164793-83907648-2e57-4855-b7ed-a75e62cf2292.png">
-
-
-Prediction
-
-<img width="261" alt="Ekran Resmi 2023-03-23 12 45 42" src="https://user-images.githubusercontent.com/75835998/227164832-67f515dd-d71d-48be-81a3-4885c5e1f806.png">
-
-
-Detection
-
-<img width="261" alt="Ekran Resmi 2023-03-22 22 25 30" src="https://user-images.githubusercontent.com/75835998/227164875-597841d9-b2a7-4dcc-89a1-c0adb8d5e26c.png">
-
